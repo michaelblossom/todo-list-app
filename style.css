@@ -1,0 +1,111 @@
+body {
+	background-color: #f4f4f4;
+	box-sizing: border-box;
+}
+.container {
+	width: 50%;
+	margin: auto;
+	background-color: #f4f4f4;
+	box-shadow: -1px 5px 27px -4px rgba(0, 0, 0, 0.74);
+}
+
+.container2 {
+	background-color: #fff;
+
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.maindiv {
+	background: url("images/casey-horner-mPnxwQBtUZE-unsplash.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+	background-size: cover;
+}
+.maindiv h1 {
+	position: absolute;
+	top: 180px;
+	left: 15px;
+	color: #fff;
+	font-family: sans-serif;
+}
+.fa-trash-alt {
+	display: inline-block;
+	margin-left: 20px;
+	color: tomato;
+}
+.fa-edit {
+	color: #2985ae;
+}
+.fa-check-circle {
+	color: grey;
+	font-size: 20px;
+}
+
+.complete {
+	color: rgb(84, 161, 84);
+}
+.maindiv h3 {
+	position: absolute;
+	top: 230px;
+	left: 15px;
+	color: #fff;
+	font-family: sans-serif;
+}
+
+.maindiv .image {
+	height: 50px;
+	width: auto;
+	left: 580px;
+	top: 20px;
+	position: absolute;
+}
+
+.container ul {
+	margin: 30px;
+	list-style: none;
+	padding: 0;
+}
+.container ul li {
+	padding: 25px 10px;
+	border: solid 1px #cccccc;
+	border-left: none;
+	border-right: none;
+	display: flex;
+	justify-content: space-between;
+	/* align-items: center; */
+}
+.plus {
+	background-color: #2985ae;
+	/* width: 10px; */
+	color: #fff;
+	text-align: center;
+	border-radius: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 50px;
+	width: 50px;
+}
+.addTodo {
+	width: 90%;
+}
+.coursename {
+	width: 90%;
+	padding: 10px;
+	margin-left: 10px;
+	border-radius: 20px;
+	border: 1px solid #2985ae;
+	outline: none;
+}
+
+.line-through {
+	text-decoration: line-through;
+	color: grey;
+}
